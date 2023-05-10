@@ -23,6 +23,8 @@ Creating new app
 Creating class in models.py to store obj
 Adding changes to database (each time modify models.py)
 ```python manage.py makemigrations myapp```
+or
+```python manage.py migrate```
 ### Create entries in database
 ```
 python manage.py shell
