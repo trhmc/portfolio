@@ -37,7 +37,11 @@ python manage.py shell
 ... )
 >>> p1.save()
 ```
-
+### Running Django server
+```
+pipenv shell
+python manage.py runserver
+```
 
 ## Resource
 https://realpython.com/get-started-with-django-1/
